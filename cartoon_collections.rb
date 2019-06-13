@@ -21,3 +21,4 @@ def find_the_cheese(array)
     if array.include?(cheese_types)
       puts array
 end
+end
