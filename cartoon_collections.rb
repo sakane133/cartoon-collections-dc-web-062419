@@ -19,7 +19,6 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
     if array.include?(cheese_types)
-      puts array.find do |yum|
-        yum(cheese_types)
+      puts array
 end
 end
